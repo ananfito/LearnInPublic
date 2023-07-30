@@ -167,7 +167,7 @@ Note: Unless you decide to change the upstream, you only need to this once. I us
 
 ## Resources 
 
-- [Git Documentation](https://git-scm.com/doc)
+- [Git Documentation](https://git-scm.com/doc) - Docs are always a good starting place when you want to learn how to use a tool
 - [Learn Git Branching](https://learngitbranching.js.org/) - Fun interactive resource for beginners to learn how git branching works
 
 ## References
