@@ -2,6 +2,20 @@
 
 These are the most common `git` commands I use while working on a project. 
 
+## Contents 
+
+- [`git init`](#git-init)
+- [`git clone`](#git-clone-url)
+- [`git status`](#git-status)
+- [`git remote`](#git-remote-add-origin-url)
+- [`git add`](#git-add-filename)
+- [`git commit`](#git-commit--m-commit-msg-goes-here)
+- [`git push`](#git-push)
+- [Other commands](#other-commands)
+- [Resources](#resources)
+- [References](#references)
+
+
 ## `git init`
 
 ```
