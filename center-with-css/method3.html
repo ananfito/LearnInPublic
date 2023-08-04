@@ -4,25 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Method 1: Using margin and max-width</title>
+  <title>Method 3: Using grid</title>
 
   <!-- STYLESHEET -->
   <link rel="stylesheet" href="style.css">
 
   <style>
-    /* METHOD 1: Using margin and max-width */
-    .blog-post {
-      margin: 0 auto;
-      max-width: 600px;
-    }
+    /* Method 3: Using grid */
   </style>
 </head>
 
 <!-- WEBPAGE CONTENT -->
 <body>
-  <header class="blog-header">
+  <header>
     <a href="./index.html">home</a>
-    <h1>Method 1: Using margin and max-width</h1>
+    <h1>Method 2: Using flex</h1>
     <h2>Example: A blog post</h2>
     <p>In this example, I have added a border to the blog post elements to better visualize how this centering technique works.</p>
     <p>The <span class="solid">blue solid border</span> is the edge of the <code>section</code> container. The <span class="dotted">blue dotted border</span> is the edge of the <code>div</code> element</p>
@@ -30,20 +26,34 @@
 
   <main>
     <section>
-      <div class="blog-post">
-        <p class="note">This blog post is centered with <code>margin</code> and <code>max-width</code></p>
-        <p>2023-08-04</p>
-        <h2>Blog Post Title</h2>
-        <h3>Blog post subtitle</h3>
+      <div class="blog-post-container">
+        <div class="blog-post">
+          <p class="note">This blog post is centered with <code>grid</code></p>
+          <p>2023-08-04</p>
+          <h2>Blog Post Title</h2>
+          <h3>Blog post subtitle</h3>
         
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nemo quia dolor, harum accusantium rem! Ratione natus fuga laudantium, dolores hic incidunt adipisci maxime et dicta omnis ipsum perferendis voluptates.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nemo quia dolor, harum accusantium rem! Ratione natus fuga laudantium, dolores hic incidunt adipisci maxime et dicta omnis ipsum perferendis voluptates.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
+        </div>
+
+        <div class="blog-post">
+          <p class="note">This blog post is centered with <code>grid</code></p>
+          <p>2023-08-04</p>
+          <h2>Blog Post Title</h2>
+          <h3>Blog post subtitle</h3>
+        
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nemo quia dolor, harum accusantium rem! Ratione natus fuga laudantium, dolores hic incidunt adipisci maxime et dicta omnis ipsum perferendis voluptates.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
+        </div>
       </div>
 
-      <div class="blog-post">
-        <p class="note">This blog post is centered with <code>margin</code> and <code>max-width</code></p>
+      <div class="non-example">
+        <p class="note">This blog post is <strong>NOT</strong> centered with <code>grid</code></p>
         <p>2023-08-04</p>
         <h2>Blog Post Title</h2>
         <h3>Blog post subtitle</h3>
@@ -55,7 +65,7 @@
       </div>
 
       <div class="non-example">
-        <p class="note">This blog post is <strong>NOT</strong> centered with <code>margin</code> and <code>max-width</code></p>
+        <p class="note">This blog post is <strong>NOT</strong> centered with <code>grid</code></p>
         <p>2023-08-04</p>
         <h2>Blog Post Title</h2>
         <h3>Blog post subtitle</h3>
@@ -65,23 +75,6 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
       </div>
-
-      <div class="non-example">
-        <p class="note">This blog post is <strong>NOT</strong> centered with <code>margin</code> and <code>max-width</code></p>
-        <p>2023-08-04</p>
-        <h2>Blog Post Title</h2>
-        <h3>Blog post subtitle</h3>
-        
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nemo quia dolor, harum accusantium rem! Ratione natus fuga laudantium, dolores hic incidunt adipisci maxime et dicta omnis ipsum perferendis voluptates.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
-      </div>
-
-    </section>
-
-    <section>
-
     </section>
   </main>
 

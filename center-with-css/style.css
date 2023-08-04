@@ -1,0 +1,57 @@
+/* BASE RESET */
+/* removes excess margin on all elements */
+* {
+  margin: 0;
+}
+
+/* BASE STYLES */
+body {
+  background-color: whitesmoke;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+header {
+  background-color: beige;
+  margin: 0 0 2em;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+}
+
+h1, h2, h3, p, ul {
+  margin: 1em 0;
+}
+
+footer {
+  margin: 2rem auto 0;
+  max-width: 600px;
+  text-align: center;
+  font-size: .8rem;
+}
+
+/* extra styling to see what's happening */
+.note {
+  color: maroon;
+  margin: 1em 0;
+  text-align: center;
+  font-size: .9rem;
+}
+
+section, .solid {
+  border: 1px solid blue;
+}
+
+.blog-post, .non-example {
+  border: 1px dotted blue;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.solid, .dotted {
+  padding: .25em;
+}
+
+.dotted {
+  border: 1px dotted blue;
+}
