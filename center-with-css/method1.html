@@ -16,21 +16,29 @@
       max-width: 600px;
     }
   </style>
+
+  
 </head>
 
 <!-- WEBPAGE CONTENT -->
 <body>
   <header class="blog-header">
-    <a href="./index.html">home</a>
+    <div class="nav-links">
+      <a href="./index.html">home</a> |
+      <a href="./method2.html">method 2</a> |
+      <a href="./method3.html">method 3</a>
+    </div>
     <h1>Method 1: Using margin and max-width</h1>
     <h2>Example: A blog post</h2>
     <p>In this example, I have added a border to the blog post elements to better visualize how this centering technique works.</p>
     <p>The <span class="solid">blue solid border</span> is the edge of the <code>section</code> container. The <span class="dotted">blue dotted border</span> is the edge of the <code>div</code> element</p>
+    <button id="toggle-btn">Borders On/Off</button>
+    <script type="module" src="./toggleBorders.js"></script>
   </header>
 
   <main>
-    <section>
-      <div class="blog-post">
+    <section class="solid" id="blog-post-content">
+      <div class="blog-post dotted" id="blogpost1">
         <p class="note">This blog post is centered with <code>margin</code> and <code>max-width</code></p>
         <p>2023-08-04</p>
         <h2>Blog Post Title</h2>
@@ -42,7 +50,7 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
       </div>
 
-      <div class="blog-post">
+      <div class="blog-post dotted" id="blogpost2">
         <p class="note">This blog post is centered with <code>margin</code> and <code>max-width</code></p>
         <p>2023-08-04</p>
         <h2>Blog Post Title</h2>
@@ -54,7 +62,7 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
       </div>
 
-      <div class="non-example">
+      <div class="non-example dotted" id="blogpost3">
         <p class="note">This blog post is <strong>NOT</strong> centered with <code>margin</code> and <code>max-width</code></p>
         <p>2023-08-04</p>
         <h2>Blog Post Title</h2>
@@ -66,7 +74,7 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
       </div>
 
-      <div class="non-example">
+      <div class="non-example dotted" id="blogpost4">
         <p class="note">This blog post is <strong>NOT</strong> centered with <code>margin</code> and <code>max-width</code></p>
         <p>2023-08-04</p>
         <h2>Blog Post Title</h2>
@@ -80,9 +88,6 @@
 
     </section>
 
-    <section>
-
-    </section>
   </main>
 
   <footer>

@@ -9,28 +9,24 @@ body {
   background-color: whitesmoke;
   line-height: 2rem;
   font-size: 18px;
-}
-
-header {
-  background-color: beige;
-  margin: 0 0 2em;
-  width: 100%;
-  padding: 1em;
-  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1, h2, h3, p, ul {
   margin: 1em 0;
 }
 
-footer {
-  margin: 2rem auto 0;
-  max-width: 600px;
+header {
+  background-color: lightblue;
+  margin: 0 0 2em;
+  padding: 1em;
   text-align: center;
-  font-size: .8rem;
 }
 
-/* extra styling to see what's happening */
+.nav-links a {
+  text-decoration: none;
+}
+
 .note {
   color: maroon;
   margin: 1em 0;
@@ -38,14 +34,20 @@ footer {
   font-size: .9rem;
 }
 
-section, .solid {
-  border: 1px solid blue;
+.blog-post, .non-example {
+  padding: 1em;
 }
 
-.blog-post, .non-example {
-  border: 1px dotted blue;
-  padding: 1em;
-  margin-bottom: 2em;
+footer {
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: center;
+  font-size: .8rem;
+}
+
+/* extra styling to see what's happening */
+.solid {
+  border: 1px solid blue;
 }
 
 .solid, .dotted {

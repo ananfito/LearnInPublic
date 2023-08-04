@@ -26,18 +26,24 @@
 <!-- WEBPAGE CONTENT -->
 <body>
   <header>
-    <a href="./index.html">home</a>
+    <div class="nav-links">
+      <a href="./index.html">home</a> |
+      <a href="./method1.html">method 1</a> |
+      <a href="./method2.html">method 2</a>
+    </div>
     <h1>Method 3: Using grid</h1>
     <h2>Example: A blog post</h2>
     <p>In this example, I have added a border to the blog post elements to better visualize how this centering technique works.</p>
     <p>The <span class="solid">blue solid border</span> is the edge of the <code>section</code> container. The <span class="dotted">blue dotted border</span> is the edge of the <code>div</code> element</p>
+    <button id="toggle-btn">Borders On/Off</button>
+    <script type="module" src="./toggleBorders.js"></script>
   </header>
 
   <main>
-    <section class="blog-post-content">
+    <section class="blog-post-content solid" id="blog-post-content">
       <!-- BLOG POST CONTENT WITH GRID -->
       <div class="blog-post-container">
-        <div class="blog-post">
+        <div class="blog-post dotted" id="blogpost1">
           <p class="note">This blog post is centered with <code>grid</code></p>
           <p>2023-08-04</p>
           <h2>Blog Post Title</h2>
@@ -49,7 +55,7 @@
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
         </div>
 
-        <div class="blog-post">
+        <div class="blog-post dotted" id="blogpost2">
           <p class="note">This blog post is centered with <code>grid</code></p>
           <p>2023-08-04</p>
           <h2>Blog Post Title</h2>
@@ -61,11 +67,8 @@
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
         </div>
       </div>
-    </section>
 
-    <!-- BLOG POST CONTENT WITHOUT GRID -->
-    <section class="non-example-content">
-      <div class="non-example">
+      <div class="non-example dotted" id="blogpost3">
         <p class="note">This blog post is <strong>NOT</strong> centered with <code>grid</code></p>
         <p>2023-08-04</p>
         <h2>Blog Post Title</h2>
@@ -77,7 +80,7 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
       </div>
 
-      <div class="non-example">
+      <div class="non-example dotted" id="blogpost4">
         <p class="note">This blog post is <strong>NOT</strong> centered with <code>grid</code></p>
         <p>2023-08-04</p>
         <h2>Blog Post Title</h2>
