@@ -8,9 +8,18 @@
 
   <!-- STYLESHEET -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="method3.css">
 
   <style>
     /* Method 3: Using grid */
+    .blog-post-container {
+      display: grid;
+    }
+
+    .blog-post {
+      justify-self: center; /* this places the div in the center of the grid-column */
+      max-width: 600px; /* this prevents the div from filling the entire space */
+    }
   </style>
 </head>
 
@@ -18,14 +27,15 @@
 <body>
   <header>
     <a href="./index.html">home</a>
-    <h1>Method 2: Using flex</h1>
+    <h1>Method 3: Using grid</h1>
     <h2>Example: A blog post</h2>
     <p>In this example, I have added a border to the blog post elements to better visualize how this centering technique works.</p>
     <p>The <span class="solid">blue solid border</span> is the edge of the <code>section</code> container. The <span class="dotted">blue dotted border</span> is the edge of the <code>div</code> element</p>
   </header>
 
   <main>
-    <section>
+    <section class="blog-post-content">
+      <!-- BLOG POST CONTENT WITH GRID -->
       <div class="blog-post-container">
         <div class="blog-post">
           <p class="note">This blog post is centered with <code>grid</code></p>
@@ -51,7 +61,10 @@
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deserunt fugit sunt nostrum commodi ducimus similique nihil rem, quasi corrupti odit iste soluta corporis sint! Provident ipsam ab inventore recusandae.</p>
         </div>
       </div>
+    </section>
 
+    <!-- BLOG POST CONTENT WITHOUT GRID -->
+    <section class="non-example-content">
       <div class="non-example">
         <p class="note">This blog post is <strong>NOT</strong> centered with <code>grid</code></p>
         <p>2023-08-04</p>
