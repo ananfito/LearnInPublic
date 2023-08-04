@@ -5,6 +5,7 @@ Inspired by [swyx's "learn in publc" philosophy](https://www.swyx.io/learn-in-pu
 ## Contents 
 
 * [Git Command Cheatseet](./git-cheatsheet.md)
+* [Center with CSS](./center-with-css/index.html)
 
 ## License
 
