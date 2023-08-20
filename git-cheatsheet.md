@@ -187,3 +187,24 @@ Note: Unless you decide to change the upstream, you only need to this once. I us
 ## References
 
 - [What is a .DS_Store file?](https://osxdaily.com/2009/12/31/what-is-a-ds_store-file/)
+
+## License
+
+This code is made available via the [GNU GPLv3 license](./LICENSE).
+
+You are free to use, copy, modify, and distribute this software under the terms of the [GNU GPLv3 license](./LICENSE). This means:
+
+- You can freely use and modify the code for any purpose.
+- If you distribute the code, you must also provide the source code and license.
+- Any changes you make to the code must be released under the same GPL-3.0 license.
+
+For more details, please refer to the full text of the [GNU GPLv3 license](./LICENSE) for this project.
+
+## Author
+
+Thank you for reading about this project. If you'd like to connect with me for mentoring, collaboration, or employment opportunities, you can do so via the following links:
+
+- <a href="mailto:msg.for.anthony.p6ht3@simplelogin.com?subject=Nice GitHub Project&body=Hey Anthony, I saw your GitHub project. Let's talk!">Email</a>
+- [LinkedIn](https://linkedin.com/in/anthonynanfito)
+- [Portfolio](https://ananfito.dev)
+- [Blog](https://blog.ananfito.dev)
