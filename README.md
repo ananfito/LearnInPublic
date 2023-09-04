@@ -7,6 +7,7 @@ Inspired by [swyx's "learn in publc" philosophy](https://www.swyx.io/learn-in-pu
 - [Git Command Cheatseet](./git-cheatsheet.md)
 - [Center with CSS](https://ananfito.dev/LearnInPublic/center-with-css/index.html)
 - [Resources for Learning Frontend Web Development](./frontend-webdev-resources.md)
+- [SQL Basics Cheat Sheet](./sql-basics-cheatsheet.md)
 
 ## License
 
