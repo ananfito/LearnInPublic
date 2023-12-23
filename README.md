@@ -1,6 +1,6 @@
 # LearnInPublic
 
-Inspired by [swyx's "learn in publc" philosophy](https://www.swyx.io/learn-in-public), here's my collection of things I'm learning about in the world of programming and have found useful. 
+Inspired by [swyx's "learn in publc" philosophy](https://www.swyx.io/learn-in-public), here's my collection of things I'm learning about in the world of programming and have found useful. I hope you might find them useful too. Happy coding! 
 
 ## Contents 
 
